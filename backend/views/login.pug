@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+    body
+        form.loginForm(action="/user/login", method="post")
+            div
+                label(for="login") Nazwa użytownika
+                input(name="login" type="text" id="login")
+            div
+                label(for="password") Hasło
+                input(name="password" type="password" id="password")
+            input(type="submit" value="Zaloguj")
